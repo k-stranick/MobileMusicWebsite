@@ -1,0 +1,16 @@
+@media screen and (max-width: 800px){
+    .container {
+        max-width: 90%;
+        border-color: crimson;
+    }
+
+    body {
+        background-color: darkorange;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    body {
+      background-color: lightblue;
+    }
+  }

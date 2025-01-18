@@ -8,7 +8,7 @@ css folder and a file in it called styles.css.  Reference the file in your html 
 images folder with an image for your webpage
 sounds folder for your music file
 include audio on the page
-use css to style the page.  Here's an example of how it could look but you can have the freedom to style it any way you like
+use css to style the page.
 if the page has a width of less than 800px then do the following
 change the border color
 change the body background color
