@@ -1,8 +1,78 @@
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-@media screen and (max-width: 800px){
-    .container {
+.card {
+    max-width: 300px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+    min-height: 500px;
+    /* Adjust this value to make the cards longer */
+
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none !important;
+}
+
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px);
+}
+
+.card-returnal {
+    background: url('../images/returnal.jpg') center/cover no-repeat;
+    color: whitesmoke;
+}
+
+/* On hover, add a semi-transparent black layer */
+.card-returnal:hover {
+    background:
+        url('../images/returnal.jpg') rgba(0, 255, 213, 0.373) center/cover no-repeat;
+    background-blend-mode: multiply;
+}
+
+.card-deathstranding {
+    background: url('../images/deathstranding_stock.jpg') center/cover no-repeat;
+    color: goldenrod;
+}
+
+.card-deathstranding:hover {
+    background: url('../images/deathstranding_stock.jpg') rgba(206, 137, 0, 0.4) center/cover no-repeat;
+    background-blend-mode: multiply;
+}
+
+.card-ffx {
+    background: url('../images/card_ffx.png') center/cover no-repeat;
+    color: whitesmoke;
+}
+
+.card-ffx:hover {
+    background: url('../images/card_ffx.png') rgba(72, 212, 237, 0.4) center/cover no-repeat;
+    background-blend-mode: multiply;
+}
+
+.card-tlou {
+    background: url('../images/tlou_card.jpg') center/cover no-repeat;
+    color: rgb(0, 0, 0);
+}
+
+.card-tlou:hover {
+    background: url('../images/tlou_card.jpg') rgba(89, 56, 13, 0.4) center/cover no-repeat;
+    background-blend-mode: multiply;
+}
+
+@media screen and (max-width: 800px) {
+    .container-fluid {
         max-width: 90%;
-        border-color: crimson;
+        border: 5px solid red;
     }
 
     body {
@@ -12,6 +82,19 @@
 
 @media only screen and (orientation: landscape) {
     body {
-      background-color: lightblue;
+        background-color: rgb(125, 60, 183);
     }
-  }
+}
+
+@media screen and (max-width: 600px) {
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+/*
+references
+https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image
+https://getbootstrap.com/docs/4.3/utilities/stretched-link/
+*/
