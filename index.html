@@ -48,14 +48,20 @@
                 <div class="col"></div>
             </div>
 
-            <div class="" <picture>
-                <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
-                <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
-                <source srcset="flowers.jpg">
-                <img src="img_smallflower.jpg" alt="Flowers">
+            <div class="row">
+                <picture>
+                    <div class="col-3">
+                        <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+                    </div>
+                    <div class="col-3">
+                        <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+                    </div>
+                    <div class="col-3">
+                        <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+                    </div>
                 </picture>
             </div>
-            
+
             <div class="audio"> <!-- Audio Element -->
                 <audio id="hiddenAudio" controls>
                     <source src="sound/thebestisyettocome.mp3" type="audio/mpeg">
