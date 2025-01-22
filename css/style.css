@@ -179,8 +179,8 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    .card:hover {
-        transform: none;
+    .card:active {
+        transform: scale(0.98);
         box-shadow: none;
     }
 }
@@ -192,4 +192,5 @@ https://getbootstrap.com/docs/4.3/utilities/stretched-link/
 https://getbootstrap.com/docs/5.0/examples/sticky-footer-navbar/
 https://bootstrapclasses.com/#?offertest=close
 https://getbootstrap.com/docs/5.3/utilities/background/
+https://www.geeksforgeeks.org/how-to-add-a-pressed-effect-on-button-click-in-css/
 */
