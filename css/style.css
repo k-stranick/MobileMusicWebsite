@@ -59,7 +59,10 @@ h1 {
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
     font-size: 5vw
 }
-
+p {
+    color: rgb(207, 144, 8);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
 .row {
     max-width: 1200px;
     margin: 0 auto;
