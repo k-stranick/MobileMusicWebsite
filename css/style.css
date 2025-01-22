@@ -128,7 +128,7 @@ h1 {
 }
 
 .card-tlou:hover {
-    background: url('../images/tlousmall.jpg') rgba(89, 56, 13, 0.4) center/cover no-repeat;
+    background: url('../images/tlousmall.jpg') rgba(89, 56, 13, 0.3) center/cover no-repeat;
     background-blend-mode: multiply;
 }
 
