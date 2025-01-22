@@ -134,7 +134,7 @@ h1 {
 
 footer {
     padding: 10px;
-    background-color: #343a4088;
+    background-color: #343a40ad;
     color: white;
     border-top: 3px solid #444;
     width: 100%;
@@ -180,4 +180,5 @@ references
 https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image
 https://getbootstrap.com/docs/4.3/utilities/stretched-link/
 https://getbootstrap.com/docs/5.0/examples/sticky-footer-navbar/
+https://bootstrapclasses.com/#?offertest=close
 */
