@@ -132,15 +132,13 @@ h1 {
     background-blend-mode: multiply;
 }
 
-/*footer {
-    margin-top: 48px;
-    text-align: center;
+footer {
     padding: 10px;
     background-color: #343a40;
     color: white;
     border-top: 3px solid #444;
     width: 100%;
-}*/
+}
 
 @media screen and (max-width: 800px) {
     .container-fluid {
