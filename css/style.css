@@ -62,6 +62,7 @@ h1 {
 .p-index {
     color: rgb(207, 144, 8);
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 .row {
     max-width: 1200px;
@@ -137,9 +138,10 @@ h1 {
 
 footer {
     padding: 10px;
-    background-color: #343a40ad;
+    background-color: #343a40d0;
     color: white;
     border-top: 3px solid #444;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     width: 100%;
 }
 
