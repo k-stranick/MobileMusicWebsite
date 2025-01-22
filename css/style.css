@@ -52,7 +52,7 @@ main {
 
 .body-ffx {
     background: url('../images/ffx_wallpaper.jpg') center/cover no-repeat;
-    /* color: rgb(207, 144, 8); */
+   color: rgb(29, 24, 14); 
 }
 
 h1 {
@@ -150,6 +150,11 @@ footer {
 
     body {
         background-color: rgb(77, 74, 74);
+    }
+
+    .body-ffx{
+        background: url('../images/ffxsmwall.jpg') right/cover no-repeat;
+
     }
 
     .card {
