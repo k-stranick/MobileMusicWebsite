@@ -1,5 +1,3 @@
-
-
 .navbar {
     background-color: rgba(0, 0, 0, 0.5);
     /* Semi-transparent background */
@@ -30,13 +28,14 @@ body {
     /* Ensure the background image covers the entire viewport */
     background-attachment: fixed;
 }
+
 /* Make the main content area take up the remaining space */
 main {
     flex: 1;
 }
 
 .body-returnal {
-    background: url('../images/fight.jpg') center/cover no-repeat; 
+    background: url('../images/fight.jpg') center/cover no-repeat;
     /* color: rgb(207, 144, 8); */
 }
 
@@ -52,13 +51,13 @@ main {
 
 .body-ffx {
     background: url('../images/ffx_wallpaper.jpg') center/cover no-repeat;
-   color: rgb(29, 24, 14); 
+    color: rgb(29, 24, 14);
 }
 
 h1 {
-color: rgb(207, 144, 8);
-text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-font-size:5vw
+    color: rgb(207, 144, 8);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    font-size: 5vw
 }
 
 .row {
@@ -75,7 +74,8 @@ font-size:5vw
 
 }
 
-.card-header, .card-footer {
+.card-header,
+.card-footer {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     text-align: center;
@@ -113,7 +113,8 @@ font-size:5vw
 }
 
 .card-ffx {
-    background: url('../images/card_ffx.png') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)) url('../images/card_ffx.png') center/cover no-repeat;
     color: rgb(207, 144, 8);
 }
 
@@ -152,9 +153,10 @@ footer {
         background-color: rgb(77, 74, 74);
     }
 
-    .body-ffx{
-        background: url('../images/ffxsmwall.jpg') right/cover no-repeat;
-
+    .body-ffx {
+        background: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.4)), url('../images/ffxsmwall.jpg') right/cover no-repeat;
+        /* Add a semi-transparent overlay on top of the background image */
     }
 
     .card {
