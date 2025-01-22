@@ -179,6 +179,10 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    .card:hover {
+        transform: none;
+    }
+    
     .card:active {
         transform: scale(0.98);
         box-shadow: none;
