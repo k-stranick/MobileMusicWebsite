@@ -135,6 +135,10 @@ h1 {
     background-blend-mode: multiply;
 }
 
+.overlay {
+    background-color: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4))
+}
 footer {
     padding: 10px;
     background-color: #343a40d0;
