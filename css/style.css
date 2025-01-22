@@ -30,6 +30,10 @@ body {
     /* Ensure the background image covers the entire viewport */
     background-attachment: fixed;
 }
+/* Make the main content area take up the remaining space */
+main {
+    flex: 1;
+}
 
 .body-returnal {
     background: url('../images/fight.jpg') center/cover no-repeat; 
