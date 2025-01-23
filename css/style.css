@@ -39,21 +39,29 @@ main {
 .body-returnal {
     background: url('../images/fight.jpg') center/cover no-repeat;
     /* color: rgb(207, 144, 8); */
+    background-attachment: fixed;
+
 }
 
 .body-deathstranding {
     background: url('../images/homepage.jpg') center/cover no-repeat;
     /* color: rgb(207, 144, 8); */
+    background-attachment: fixed;
+
 }
 
 .body-tlou {
     background: url('../images/tloucollab.jpg') center/cover no-repeat;
     /* color: rgb(207, 144, 8); */
+    background-attachment: fixed;
+
 }
 
 .body-ffx {
     background: url('../images/ffx_wallpaper.jpg') center/cover no-repeat;
     color: rgb(29, 24, 14);
+    background-attachment: fixed;
+
 }
 
 h1 {
