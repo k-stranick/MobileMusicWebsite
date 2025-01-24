@@ -22,8 +22,9 @@
 }
 
 #navbar.scrolled {
-    background-color: rgba(52, 58, 64, 1); /* Fully opaque when scrolled */
-  }
+    background-color: rgba(52, 58, 64, 1);
+    /* Fully opaque when scrolled */
+}
 
 .btn {
     background-color: rgb(233, 139, 50);
@@ -72,21 +73,18 @@ body {
     background-size: cover;
     /* Ensure the background image covers the entire viewport */
     color: #F9C34E;
-
 }
 
 .body-index {
     background: linear-gradient(rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.4)), url("../images/beautiful.jpg") no-repeat center center;
-/* Add a semi-transparent overlay on top of the background image */
-background-attachment: fixed;
-
-
+            rgba(0, 0, 0, 0.4)), url("../images/beautiful.jpg") no-repeat center center;
+    /* Add a semi-transparent overlay on top of the background image */
+    background-attachment: fixed;
 }
+
 .body-returnal {
     background: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.4)), url('../images/fight.jpg') center/cover no-repeat;
-    /* color: rgb(207, 144, 8); */
     background-attachment: fixed;
 
 }
@@ -94,15 +92,13 @@ background-attachment: fixed;
 .body-deathstranding {
     background: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.4)), url('../images/homepage.jpg') center/cover no-repeat;
-    /* color: rgb(207, 144, 8); */
     background-attachment: fixed;
 
 }
 
 .body-tlou {
-    background:linear-gradient(rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.4)), url('../images/tloucollab.jpg') center/cover no-repeat;
-    /* color: rgb(207, 144, 8); */
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)), url('../images/tloucollab.jpg') center/cover no-repeat;
     background-attachment: fixed;
 
 }
@@ -220,6 +216,7 @@ footer {
         background: linear-gradient(rgba(0, 0, 0, 0.3),
                 rgba(0, 0, 0, 0.4)), url('../images/ffxsmwall.jpg') right/cover no-repeat;
         /* Add a semi-transparent overlay on top of the background image */
+        background-attachment: fixed;
     }
 
     .card {
