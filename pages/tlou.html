@@ -14,71 +14,147 @@
 
 <body class="d-flex flex-column min-vh-100 body-tlou">
     <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html"><img src="../images/logo.jpg" alt="Logo for Fox Hound"
-                height="40"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/returnal.html">Returnal</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/deathstranding.html">Death Stranding</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/ffx.html">Final Fantasy X</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/tlou.html">The Last of Us</a>
-                </li>
-            </ul>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../images/logo.jpg" alt="Logo for Fox Hound"
+                    height="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/returnal.html">Returnal</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/deathstranding.html">Death Stranding</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/ffx.html">Final Fantasy X</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/tlou.html">The Last of Us</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-
-    <header>
-        <div class="container-fluid text-center text-white mb-4">
-            <!-- set this in CSS file-->
-            <h1 style="font-size:5vw">This is my media player (change this name)</h1>
-        </div>
-    </header>
-
-    <main>
-        <div class="container-fluid text-grey">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3 mb-4">
-                    <div class="card position-relative card-returnal">
-                        <div class="card-header">
-                            Returnal
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <a href="pages/returnal.html" class="stretched-link"></a>
-                        </div>
-                    </div>
+    <main class="container my-4">
+        <div class="row mb-4">
+            <div class="col-md-6 text-center mt-5">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JZ-YYj7VopU?si=RklG8G7d8h5qrRQz"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                
+                <div class="ratio ratio-16x9 mt-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/H9jutQj85q0?si=fRrzpobRyn3aX9hc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="col-md-12 mt-5 text-center">
+                    <audio controls autoplay loop>
+                        <source src="../sound/thechoice.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
             </div>
-            <div class="row">
-                <iframe class="imbed-responsive">
-                    this should be where the gameplay video goes 
-                </iframe>
+            <div class="col-md-6 rounded p-4 bg-dark bg-opacity-50">
+                <h1 class="display-4 fst-italic">The Last of Us Series</h1>
+                <p class="lead my-3 p-index">The Last of Us Part 1<br>
+                    The Last of Us Part 1, developed by Naughty Dog and released in 2013 (remastered in 2014, remade in
+                    2022), is a groundbreaking action-adventure game that blends survival mechanics with an emotionally
+                    charged narrative. Set in a post-apocalyptic United States ravaged by a fungal infection caused by
+                    the Cordyceps fungus, the game follows Joel, a smuggler, and Ellie, a teenage girl who may hold the
+                    key to humanity’s survival.
+                    <br><br>
+                    The story revolves around their journey across a hostile and desolate America, forming an unlikely
+                    bond while confronting both infected monstrosities and the darker sides of humanity.
+                    <br><br>
+                    The game begins 20 years after the Cordyceps outbreak, which decimated civilization and turned much
+                    of the population into aggressive, zombie-like infected. Joel, haunted by the death of his daughter
+                    Sarah during the early chaos of the outbreak, is tasked with smuggling Ellie to the Fireflies, a
+                    group seeking a cure for the infection. As their journey unfolds, Joel and Ellie face countless
+                    dangers: infected hordes, ruthless survivors, and a crumbling world where hope is scarce.
+                    <span class="more-text">
+                        <br><br>
+                        Their bond deepens as Joel becomes a father figure to Ellie, and the narrative challenges
+                        notions of
+                        morality, love, and sacrifice. In the end, Joel makes a fateful decision to protect Ellie at all
+                        costs, even if it means dooming humanity by preventing the development of a cure.
+                        <br><br>
+                        While the gameplay emphasizes stealth, exploration, and resource management, it’s the narrative
+                        depth and emotional weight that truly set The Last of Us apart.
+                        <br><br>
+                        Survival and Morality:<br>
+                        The game poses difficult moral questions about what people are willing to do to survive in a
+                        world where societal norms have collapsed. Joel’s actions, particularly at the game’s
+                        conclusion, highlight the blurry line between right and wrong in the face of personal loss.
+                        <br><br>
+                        Love and Sacrifice:<br>
+                        Joel’s growing love for Ellie drives the emotional core of the game. His ultimate
+                        sacrifice—choosing Ellie’s life over humanity’s potential salvation—forces players to grapple
+                        with his morally gray decision.
+                        <br><br>
+                        Humanity in Ruin:<br>
+                        The infected are terrifying, but the game’s true horror lies in humanity’s desperation and
+                        cruelty. From cannibalistic hunters to militia factions, the game shows how societal collapse
+                        brings out the best and worst in people.
+                        <br><br>
+                        Hope Amid Despair:<br>
+                        Despite the grim world, Joel and Ellie’s relationship is a beacon of hope, showing that even in
+                        the darkest times, human connection can prevail.
+                        <br><br>
+                        The Last of Us Part 2<br>
+                        Released in 2020, The Last of Us Part 2 builds on the emotional foundation of the first game,
+                        delving deeper into themes of revenge, grief, and forgiveness. The sequel is more ambitious in
+                        scope and storytelling, delivering a raw and brutal narrative that challenges players to see
+                        both sides of a morally complex conflict.
+                        <br><br>
+                        Set five years after the events of Part 1, Ellie is now a young adult living in Jackson,
+                        Wyoming. When tragedy strikes, she embarks on a revenge-driven journey that forces her to
+                        confront the cycle of violence and the consequences of her actions.
+                        <br><br>
+                        The game alternates between two perspectives: Ellie, seeking revenge for the death of her father
+                        figure, Joel, and Abby, a soldier from the Washington Liberation Front (WLF) whose actions are
+                        tied to Joel’s choices in the first game. Abby’s father was the Firefly surgeon Joel killed to
+                        save Ellie, setting the events of Part 2 into motion.
+                        <br> <br>
+                        Ellie’s path is fueled by rage, as she hunts Abby across a dangerous Seattle torn apart by
+                        warring factions. Meanwhile, Abby’s story reveals her own struggles with loss, guilt, and
+                        redemption. The two characters’ journeys eventually collide in a brutal confrontation, leaving
+                        both scarred by the endless cycle of violence. The game ends with Ellie choosing to let Abby go,
+                        breaking the cycle but losing much of herself in the process.
+                        <br><br>
+                        Part two explores the consequences of revenge, the cost of violence, and the struggle for
+                        redemption.
+                        <br>
+                        Revenge and Its Cost:<br>
+                        Part 2 explores how revenge consumes those who pursue it. Ellie’s obsession with vengeance leads
+                        to devastating consequences, showing that retribution often leaves more destruction in its wake.
+                        <br><br>
+                        Perspective and Empathy:<br>
+                        By forcing players to experience Abby’s side of the story, the game challenges preconceived
+                        notions of morality and asks players to empathize with characters they initially view as
+                        antagonists.
+                        <br><br>
+                        Trauma and Grief:<br>
+                        Both Ellie and Abby are shaped by their past losses. The game delves into how trauma influences
+                        their decisions and how grief manifests in destructive ways.
+                        <br><br>
+                        Cycles of Violence:<br>
+                        The central theme of Part 2 is the cyclical nature of violence. Joel’s decision in Part 1 sets
+                        off a chain reaction, with Ellie and Abby both perpetuating the cycle. The game questions
+                        whether it’s possible to break free from this pattern.
+                        <br><br>
+                        Forgiveness and Redemption:<br>
+                        Ellie’s decision to spare Abby at the end represents her attempt to move on, choosing
+                        forgiveness over destruction, even if it comes at great personal cost.
+                    </span>
+                </p>
+                <button id="readMoreBtn" class="btn btn-primary">Read More</button>
             </div>
-            <div class="text-center">
-                <audio controls autoplay loop>
-                    <source src="../sound/collateral.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
+
+
         </div>
     </main>
 
@@ -90,7 +166,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script src="../js/readMore.js"></script>
 
+    <script src="../js/scroll.js"></script>
 </body>
 
 </html>

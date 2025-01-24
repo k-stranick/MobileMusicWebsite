@@ -14,65 +14,89 @@
 
 <body class="d-flex flex-column min-vh-100 body-returnal">
     <!-- Navigation Bar -->
- <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html"><img src="../images/logo.jpg" alt="Logo for Fox Hound"
-                height="40"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/returnal.html">Returnal</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/deathstranding.html">Death Stranding</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/ffx.html">Final Fantasy X</a>
-                    </li>  
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/tlou.html">The Last of Us</a>
-                </li>
-            </ul>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../images/logo.jpg" alt="Logo for Fox Hound"
+                    height="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/returnal.html">Returnal</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/deathstranding.html">Death Stranding</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/ffx.html">Final Fantasy X</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/tlou.html">The Last of Us</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-    <header>
-        <div class="container-fluid text-center text-white mb-4">
-            <!-- set this in CSS file-->
-            <h1 style="font-size:5vw">This is my media player (change this name)</h1>
-        </div>
-    </header>
-
-    <main>
-        <div class="container-fluid text-grey">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3 mb-4">
-                    <div class="card position-relative card-returnal">
-                        <div class="card-header">
-                            Returnal
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <a href="pages/returnal.html" class="stretched-link"></a>
-                        </div>
-                    </div>
-                </div>
-                
+    <main class="container my-4">
+        <div class="row mb-4">
+            <div class="col-md-6 rounded p-4 bg-dark bg-opacity-75">
+                <h1 class="display-4 fst-italic">Returnal</h1>
+                <p class="lead my-3 p-index">"Returnal" is a sci-fi third-person shooter and roguelike developed by
+                    Housemarque and published by Sony Interactive Entertainment. Released in April 2021 for PlayStation
+                    5, the game is celebrated for its challenging gameplay, haunting atmosphere, and deeply layered
+                    narrative. It tells the story of Selene Vassos, an Astra scout trapped on the mysterious alien
+                    planet of Atropos, caught in a time loop where death resets her journey.
+                    <span class="more-text">
+                        <br><br>
+                        The game follows Selene as she investigates a distress signal—codenamed “White Shadow”—emanating
+                        from Atropos. Her ship, the Helios, crashes on the planet, and she discovers it’s hostile,
+                        dangerous, and shrouded in mystery. Strangely, every time she dies, the loop resets, with
+                        Atropos reconfiguring its layout. Along the way, Selene uncovers cryptic logs of her own past
+                        lives and memories that question her sanity.
+                        <br>
+                        As the story unfolds, themes of trauma, loss, and guilt become central to the narrative. The
+                        deeper Selene delves into the planet, the more the lines blur between her memories and Atropos’s
+                        alien horrors. Players are left piecing together the psychological story through scattered
+                        fragments.
+                        <br><br>
+                        Returnal is a hybrid of bullet-hell action and roguelike mechanics, offering fast-paced and
+                        fluid combat with an emphasis on skill. The game’s design encourages players to adapt to the
+                        game’s ever-changing environments, with each run presenting new challenges and opportunities.
+                        <br><br>
+                        Returnal stands out by exploring the psychological aspects of its protagonist, intertwining
+                        gameplay with its themes. The game’s atmosphere, combined with its haunting soundtrack, immerses
+                        players in a world that is as beautiful as it is terrifying. The game’s narrative is rich with
+                        symbolism and themes, including:
+                        <br><br>
+                        Time and Mortality:
+                        <br>
+                        The time loop symbolizes Selene’s inability to escape her past and the cyclical nature of her
+                        guilt and trauma.
+                        <br><br>
+                        Psychological Exploration:
+                        <br>
+                        The story blurs the line between reality and memory, with Atropos serving as a metaphorical
+                        representation of Selene’s subconscious.
+                        Survival and Perseverance:
+                        <br><br>
+                        The game emphasizes resilience in the face of constant failure and the drive to uncover the
+                        truth, no matter the cost.
+                    </span>
+                </p>
+                <button id="readMoreBtn" class="btn">Read More</button>
             </div>
 
-            <div class="text-center">
-                <audio controls autoplay loop>
-                    <source src="../sound/murals.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
+            <div class="col-md-6 text-center mt-5">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/k4nSLa8a588?si=tpygJmRsxzC1Z1T0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-12 mt-5 text-center">
+                    <audio controls autoplay loop>
+                        <source src="../sound/murals.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
             </div>
         </div>
     </main>
@@ -85,6 +109,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="../js/readMore.js"></script>
+    <script src="../js/scroll.js"></script>
 
 </body>
 

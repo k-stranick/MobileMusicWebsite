@@ -9,26 +9,50 @@
 
 .nav-link {
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    color: rgb(230, 115, 8);
+    color: #F9C34E;
     padding: 0 10px;
     /* Add padding around the nav items */
+    font-weight: bolder;
 }
 
 .nav-link:hover {
-    color: rgb(207, 144, 8);
+    color: rgb(163, 152, 129);
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 
 }
 
-body {
-    min-height: 100vh;
-    /* Ensure body takes at least the full viewport height */
-    background: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)), url("../images/beautiful.jpg") no-repeat center center;
-    /* Add a semi-transparent overlay on top of the background image */
-    background-size: cover;
-    /* Ensure the background image covers the entire viewport */
-    background-attachment: fixed;
+#navbar.scrolled {
+    background-color: rgba(52, 58, 64, 1); /* Fully opaque when scrolled */
+  }
+
+.btn {
+    background-color: rgb(233, 139, 50);
+    /* Button color */
+    border: none;
+    /* Remove border */
+    color: white;
+    /* Text color */
+    padding: 10px 20px;
+    /* Add padding */
+    text-align: center;
+    /* Center text */
+    text-decoration: none;
+    /* Remove underline */
+    display: inline-block;
+    /* Make it an inline-block element */
+    font-size: 16px;
+    /* Font size */
+    margin: 4px 2px;
+    /* Margin around the button */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+}
+
+.btn:hover {
+    background-color: rgb(212, 172, 86);
+    /* Button hover color */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    /* Add a shadow on hover */
 }
 
 /* Hide the extra content by default */
@@ -41,22 +65,43 @@ main {
     flex: 1;
 }
 
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4));
+    /* Add a semi-transparent overlay on top of the background image */
+    background-size: cover;
+    /* Ensure the background image covers the entire viewport */
+    color: #F9C34E;
+
+}
+
+.body-index {
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)), url("../images/beautiful.jpg") no-repeat center center;
+/* Add a semi-transparent overlay on top of the background image */
+background-attachment: fixed;
+
+
+}
 .body-returnal {
-    background: url('../images/fight.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)), url('../images/fight.jpg') center/cover no-repeat;
     /* color: rgb(207, 144, 8); */
     background-attachment: fixed;
 
 }
 
 .body-deathstranding {
-    background: url('../images/homepage.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)), url('../images/homepage.jpg') center/cover no-repeat;
     /* color: rgb(207, 144, 8); */
     background-attachment: fixed;
 
 }
 
 .body-tlou {
-    background: url('../images/tloucollab.jpg') center/cover no-repeat;
+    background:linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)), url('../images/tloucollab.jpg') center/cover no-repeat;
     /* color: rgb(207, 144, 8); */
     background-attachment: fixed;
 
@@ -64,20 +109,18 @@ main {
 
 .body-ffx {
     background: url('../images/ffx_wallpaper.jpg') center/cover no-repeat;
-    color: rgb(29, 24, 14);
     background-attachment: fixed;
 
 }
 
 h1 {
-    color: rgb(207, 144, 8);
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
     font-size: 5vw
 }
 
 .p-index {
-    color: rgb(207, 144, 8);
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    font-weight: 400;
 }
 
 .row {
@@ -91,6 +134,7 @@ h1 {
     transition: transform 0.3s ease;
     min-height: 500px;
     /* Adjust this value to make the cards longer */
+    color: #F9C34E;
 
 }
 
@@ -112,7 +156,6 @@ h1 {
 
 .card-returnal {
     background: url('../images/returnal.jpg') center/cover no-repeat;
-    color: rgb(207, 144, 8);
 }
 
 /* On hover, add a semi-transparent black layer */
@@ -124,7 +167,6 @@ h1 {
 
 .card-deathstranding {
     background: url('../images/deathstranding_stock.jpg') center/cover no-repeat;
-    color: rgb(207, 144, 8);
 }
 
 .card-deathstranding:hover {
@@ -134,7 +176,6 @@ h1 {
 
 .card-ffx {
     background: url('../images/card_ffx.png') center/cover no-repeat;
-    color: rgb(207, 144, 8);
 }
 
 .card-ffx:hover {
@@ -144,7 +185,6 @@ h1 {
 
 .card-tlou {
     background: url('../images/tlousmall.jpg') center/cover no-repeat;
-    color: rgb(207, 144, 8);
 }
 
 .card-tlou:hover {
@@ -203,6 +243,32 @@ footer {
         transform: scale(0.98);
         box-shadow: none;
     }
+}
+
+audio {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    background-color: #343a40;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #343a40;
+    border-radius: 10px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-fullscreen-button {
+    filter: invert(100%);
 }
 
 /*

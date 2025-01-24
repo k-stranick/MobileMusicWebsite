@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Favorite Games</title>
-    <link rel="icon" href="images/logo.jpg"
-        type="image/x-icon" />
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon" />
     <!-- add icon link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -15,33 +14,24 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100 body-index">
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="Logo for Fox Hound"
-                    height="40"></a>
+            <a class="navbar-brand" href="../index.html"><img src="../images/logo.jpg" alt="Logo for Fox Hound"
+                    height="50"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/returnal.html">Returnal</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/deathstranding.html">Death Stranding</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/returnal.html">Returnal</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/deathstranding.html">Death Stranding</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/ffx.html">Final Fantasy X</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/tlou.html">The Last of Us</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/ffx.html">Final Fantasy X</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/tlou.html">The Last of Us</a></li>
                 </ul>
             </div>
         </div>
@@ -52,12 +42,16 @@
     </header> -->
     <div class="d-flex justify-content-end p-4 p-md-5 mb-2">
         <div class="col-md-6 rounded p-4 bg-dark bg-opacity-50">
-            <h1 class="display-4 fst-italic">Their Stories Will Live Rent Free</h1>
-            <p class="lead my-3 p-index">I began my journey gaming with the old school 8-bit systems. Collecting coins
-                as Sonic or trying to rescue Princess Zelda from the malovelent Gannondorf. Though as the times changed
-                and grew, so did the gaming industry. Games becasue to take shapes of their own. Stories that moved you,
-                immersive gameplay, more realistic graphics, A-List actors. Below you will find four games that
-                completly blew me away. If you have a chance try them out, maybe you will learn something also. </p>
+            <h1 class="display-4 fst-italic">Virtural Worlds, Real Impact</h1>
+            <p class="lead my-3 p-index">Gaming has come a long way from the humble beginnings of 8-bit adventures. What
+                started as simple mechanics and pixelated graphics has grown into an art form capable of telling
+                breathtaking stories, immersing players in vast worlds, and pushing the boundaries of technology. Over
+                the years, we’ve gone from side-scrolling platformers to cinematic experiences with lifelike visuals,
+                emotional narratives, and performances by Hollywood’s finest.
+                <br><br>
+                The evolution of gaming is a testament to creativity and innovation, and below, I’ve shared four titles
+                that embody this growth. Each one left a profound impact on me, and I hope they’ll inspire you too.
+            </p>
         </div>
     </div>
     <main>
@@ -71,9 +65,7 @@
                         <div class="card-body">
                             <a href="pages/returnal.html" class="stretched-link"></a>
                         </div>
-                        <div class="card-footer">
-                            Will she break the cycle?
-                        </div>
+
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-4">
@@ -84,9 +76,7 @@
                         <div class="card-body">
                             <a href="pages/deathstranding.html" class="stretched-link"></a>
                         </div>
-                        <div class="card-footer">
-                            Will hope for a better futer heal loneliness?
-                        </div>
+
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-4">
@@ -97,9 +87,7 @@
                         <div class="card-body">
                             <a href="pages/ffx.html" class="stretched-link"></a>
                         </div>
-                        <div class="card-footer">
-                            Can their sacrifice break tradition?
-                        </div>
+
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 mb-4">
@@ -110,23 +98,21 @@
                         <div class="card-body">
                             <a href="pages/tlou.html" class="stretched-link"></a>
                         </div>
-                        <div class="card-footer">
-                            What is the True Cost of Revenge?
-                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer class="footer mt-auto py-3 text-center">
+    <footer class="footer py-3 text-center mt-5">
         <p>&copy; Kyle Stranick ITN 263-601 Mobile App Development Spring 2025</p>
     </footer>
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
-
+    <script src="js/scroll.js"></script>
 </body>
 
 </html>
