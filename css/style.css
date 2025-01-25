@@ -67,9 +67,6 @@ main {
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4));
-    /* Add a semi-transparent overlay on top of the background image */
     background-size: cover;
     /* Ensure the background image covers the entire viewport */
     color: #F9C34E;
@@ -208,8 +205,10 @@ footer {
         border: 5px solid rgb(81, 88, 82);
     }
 
-    body {
+    .body-index {
+        background-image: none;
         background-color: rgb(77, 74, 74);
+        background-attachment: fixed;
     }
 
     .body-ffx {
