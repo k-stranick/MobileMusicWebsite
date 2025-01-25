@@ -200,6 +200,11 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+
+    main {
+        border: 5px solid rgb(81, 88, 82);
+
+    }
     .container-fluid {
         max-width: 90%;
         border: 5px solid rgb(81, 88, 82);
